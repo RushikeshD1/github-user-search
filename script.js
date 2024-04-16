@@ -21,7 +21,7 @@ async function fetchData(){
     console.log(data);
 
     const name = data.name !== null ? data.name : "--"
-    const login = '@'+data.login !== null ? data.login : "--"
+    const login = data.login !== null ? data.login : "--"
     const profile = data.avatar_url !== null ? data.avatar_url : "--"
     const bio = data.bio !== null ? data.bio : "--"
     const location = data.location !== null ? data.location : "--"
@@ -49,7 +49,7 @@ async function fetchData(){
                 <img src="${profile}" class = 'user-img'>
                 <div class = 'user-name'>
                     <span class = 'name'>${name}</span>
-                    <span class = 'login'>${login}</span>                   
+                    <span class = 'login'>@${login}</span>                   
                 </div>  
                 <span class = 'date'>Joined ${time}</span>   
                 

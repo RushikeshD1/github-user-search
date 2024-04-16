@@ -1,0 +1,127 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #fff;
+}
+
+.container-main{ 
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 5em;
+}
+
+.search{    
+    height: 50px;
+    border-radius: 7px;
+    background-color: #ededed;
+    margin: 20px 0px;
+    padding: 0px 10px;
+}
+
+.icon-search{    
+    position: relative;
+    top: 7px;
+}
+
+
+#search-text{  
+    padding-left: 5px; 
+    width: 655px;
+    height: 100%;
+    border: none;
+    font-size: 14px;
+    background-color: #ededed;
+}
+
+#search-text:focus{
+    outline: none;
+}
+
+#btn-search{
+    background-color: black;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;   
+    transition: padding 0.5s ease;
+}
+
+#btn-search:hover{    
+    padding: 5px 8px;
+}
+
+.user-data{
+    border-radius: 7px;
+    background-color: #ededed;
+    padding: 30px;
+}
+
+.main{    
+    height: 120px;
+    display: flex;
+}
+
+.user-img{    
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 0px 10px 0px 0px;
+}
+
+.user-name{
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;    
+}
+
+.name{
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.login{
+    padding-left: 10px;
+    color: blue;
+}
+
+.user-bio{
+    display: flex;
+    color: rgb(42, 38, 38);
+    padding: 10px;
+    font-size: 18px;
+}
+
+.location{    
+    width: 150px;
+    height: 40px;
+    margin-top: 10px;
+}
+
+svg{
+    width: 15px;
+    color: black;
+}
+
+.user-location{
+    padding: 10px;    
+    font-size: 18px;
+    color: rgb(14, 14, 14);
+}
+
+.date{
+    padding-top: 20px;
+    padding-left: 320px;
+}
+
+.msg{
+    font-size: 18px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
